@@ -18,23 +18,29 @@ Follow the steps below to install the dark mode theme on your code-server instan
 
 # 1. **Download the repository archive** and extract it into the usr (`/usr/`) directory. This will replace the original template files located in the `code-server` installation folder.
 
-   ```bash
+   
    # Download the theme
+   ```bash
    wget https://github.com/sickplanet/code-server-dark-mode-login-page/archive/refs/heads/main.zip
-
+   ```
    # Extract the archive into the current directory
+   ```bash
    sudo unzip main.zip
-
+   ```
    # Copy theme files
+   ```bash
    sudo cp -r "code-server-dark-mode-login-page-main/usr/"* "/usr/"
-
+   ```
    # Remove the downloaded zip file
+   ```bash
    sudo rm main.zip
-
+   ```
    # Remove extracted folder
+   ```bash
    sudo rm -rf code-server-dark-mode-login-page-main/
-
+   ```
    # All of the above in one line command style
+   ```bash
    wget https://github.com/sickplanet/code-server-dark-mode-login-page/archive/refs/heads/main.zip &&
     sudo unzip main.zip &&
     sudo cp -r "code-server-dark-mode-login-page-main/usr/"* "/usr/" &&
