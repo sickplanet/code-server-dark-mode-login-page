@@ -1,6 +1,6 @@
-# [Dark Mode Login Page for Code-Server]([https://github.com/coder/code-server](https://github.com/sickplanet/code-server-dark-mode-login-page))
+# Dark Mode Login Page for Code-Server
 
-This repository provides a dark mode theme for the login page of [code-server](https://github.com/coder/code-server), along with VS Code logos. The theme enhances the login experience with a sleek, dark interface.
+This repository provides a [dark mode theme](https://github.com/sickplanet/code-server-dark-mode-login-page) for the login page of [code-server](https://github.com/coder/code-server), along with VS Code logos. The theme enhances the login experience with a sleek, dark interface.
 <meta name="google-site-verification" content="ynHGL0v3-cfKaPx8V9i9Zf5PIxFEw_4UHcmE5F4i460" />
 ## Preview
 ![Preview Image](./screenshot-code-server-dark-mode-login-page.png)
