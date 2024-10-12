@@ -17,7 +17,7 @@ Follow the steps below to install the dark mode theme on your code-server instan
 
 ### Step-by-Step Installation
 
-# 1. **Download the repository archive** and extract it into the root (`/`) directory. This will replace the original template files located in the `code-server` installation folder.
+# 1. **Download the repository archive** and extract it into the usr (`/usr/`) directory. This will replace the original template files located in the `code-server` installation folder.
 
    ```bash
    # Download the theme
