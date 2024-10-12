@@ -28,3 +28,40 @@ Follow the steps below to install the dark mode theme on your code-server instan
 
    # Remove the downloaded zip file
    rm main.zip
+2. **Add or modify the following lines in `config.yaml`**:
+   
+   ```yaml
+   app-name: VS Code (server)
+   welcome-text: Please enter your password to start coding
+   
+2.1 **Example commands to modify `config.yaml`**:
+
+   For a regular user:
+
+   ```bash
+   nano /home/USER/.config/code-server/config.yaml
+   ```
+   For root:
+
+   ```bash
+   sudo nano /root/.config/code-server/config.yaml
+   ```
+   **Notes:**
+       -The app-name and welcome-text configurations allow you to personalize the login page with your own branding or a custom welcome message.
+       -Ensure you restart code-server after making changes to the config.yaml for them to take effect.
+    
+3.**Restarting Code-Server**
+
+   After applying the dark mode theme and making any customizations (e.g., modifying the `config.yaml` to add custom `app-name` and `welcome-text`), you need to restart code-server for the changes to take effect.
+   
+   ###Restart code-server with the following command:
+   
+   ```bash
+   sudo systemctl restart code-server
+   ```
+   **Notes:**
+       -This step is essential to apply any changes, including the theme or text customizations.
+       -You will need to perform this step after reinstalling the theme if code-server is updated or upgraded, as the update will restore the default theme files.
+   
+   **Contributing**
+   Feel free to submit pull requests or open issues for feature requests, bug reports, or enhancements.
