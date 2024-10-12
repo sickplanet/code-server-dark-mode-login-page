@@ -4,7 +4,7 @@ This repository provides a dark mode theme for the login page of [code-server](h
 
 ## Preview
 
-![Preview Image](./screenshot.png)
+![Preview Image](./screenshot-code-server-dark-mode-login-page.png)
 
 ## Features
 - Dark Mode design
